@@ -1,4 +1,4 @@
-# Deployment of Web Applications Using IaaS and PaaS: A Beginner-Friendly Report
+# Deployment of Web Applications Using IaaS and PaaS
 
 In this report, I will talk about how to deploy a web application consisting of three main components: a Flask web server, a React UI frontend, and a PostgreSQL database. I will focus on deploying this application using two cloud service models: **Infrastructure-as-a-Service (IaaS)** and **Platform-as-a-Service (PaaS)**.
 
@@ -14,7 +14,8 @@ In the IaaS model, we are responsible for managing the virtual machines (VMs) an
 - Run the Flask application on this server.
 
 #### 2. UI Frontend (React):
-- We can either use the same VM as Flask or create a separate VM for the React app. 
+- We can either use the same VM as Flask or create a separate VM for the React app.
+- We can choose separate VMs for Flask and React as they are ideal for larger, production-ready applications where performance, scalability, and flexibility are priorities. This setup provides more control and ensures better resource management for the consumer.
 - Install the required React dependencies on the VM.
 
 #### 3. Database (PostgreSQL):
@@ -27,6 +28,8 @@ In the IaaS model, we are responsible for managing the virtual machines (VMs) an
 
 ### IaaS Summary:
 In this setup, we have full control over the infrastructure, but we must handle everything ourselves, including installing software and managing the network. The main advantage is flexibility, but the challenge is the complexity of management.
+
+![alt text](https://github.com/Satkirat-kaur/CST8913/blob/main/Lab2/IAAS%202.png)
 
 ---
 
@@ -51,6 +54,8 @@ In the PaaS model, the cloud provider manages most of the infrastructure for us,
 
 ### PaaS Summary:
 In PaaS, the cloud provider manages most aspects of the infrastructure, allowing you to focus more on your application code. This simplifies the deployment process, reduces complexity, and provides automatic scaling. However, you have less control over the underlying infrastructure.
+
+![alt text](https://github.com/Satkirat-kaur/CST8913/blob/main/Lab2/PAAS%20diagram.png)
 
 ---
 
