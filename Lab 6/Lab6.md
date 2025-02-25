@@ -29,6 +29,8 @@ The company now aims to break this monolith into discrete, scalable services lev
 - **Static Content:**  
   Local file storage for image uploads, logs, and other static assets.
 
+![Alt text](https://github.com/Satkirat-kaur/CST8913/blob/main/Lab%206/Monolithic%20Architecture.png)
+
 # 3. Planning the Refactoring Strategy
 
 ## Breaking Down the Monolithic Application
@@ -56,6 +58,7 @@ The company now aims to break this monolith into discrete, scalable services lev
    - **Service:** Integrate Azure Active Directory (Azure AD) for centralized authentication and authorization.
 
 **Updated Architecture Diagram**
+![Alt text](https://github.com/Satkirat-kaur/CST8913/blob/main/Lab%206/Cloud-Native%20Architecture.png)
 
 # 4. Implementation Steps
 
