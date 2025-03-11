@@ -14,6 +14,8 @@
 | 2025-03-10  | nan         | nan         |              0 | CAD        |
 | 2025-03-11  | nan         | nan         |              0 | CAD        |
 
+![ Alt Text](https://github.com/Satkirat-kaur/CST8913/blob/main/Azure-Cost-Management-Lab/CostAnalysis.png)
+
 ## **Key Observations**
 - The highest cost recorded was **on `2025-02-10`** with a cost of **$1.18 CAD**.
 - The lowest cost recorded was **on `2025-02-28`** with a cost of **$-0.06 CAD**.
